@@ -13,6 +13,18 @@
     "snoowrap": "^1.15.2"
   },
   "scripts": {
-    "start": "node src/app"
+    "start": "node src/app",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "yarn prettier --no-semi --single-quote --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^6.1.1",
+    "prettier": "^1.10.2"
   }
 }
