@@ -1,0 +1,18 @@
+{
+  "name": "dogs-chasing-humans",
+  "version": "0.0.1",
+  "description": "A reddit bot that replies with dog images",
+  "main": "src/app.js",
+  "repository": "https://github.com/chrzrdx/dogs-chasing-humans",
+  "author": "Abhinandan Panigrahi <chrzrdx@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "snoostorm": "^0.0.5",
+    "snoowrap": "^1.15.2"
+  },
+  "scripts": {
+    "start": "node src/app"
+  }
+}
